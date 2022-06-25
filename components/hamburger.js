@@ -1,9 +1,9 @@
 import Link from 'next/link'
-import React, {useEffect, useRef} from 'react'
+import React, {MutableRefObject, useEffect, useRef} from 'react'
 
 const Hamburger = ({state}) => {
 
-    let menu = useRef(null);
+    let menu = useRef(null)
 
     useEffect(() => {
         if(state.clicked === false ) {

@@ -1,6 +1,7 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import Link from 'next/link'
 import Hamburger from './hamburger'
+
 
 export const Header = () => {
 
@@ -14,6 +15,9 @@ export const Header = () => {
 
   // State of our button
   const [disabled, setDisabled] = useState(false);
+
+ 
+  
 
 
     const handleMenu = () => {
