@@ -76,6 +76,7 @@ export const Header = () => {
                 </div>
             </div>
         </div>
+        
         <Hamburger state={state}/>
     </header>
   )

@@ -23,9 +23,9 @@ const Hamburger = ({state}) => {
         <div className='bg-black z-10 top-0 bottom-0 left-0 right-0 fixed h-[100%] w-[100%] '>
             <div className='relative bg-red-600 h-[100%] overflow-hidden m-auto '>
                 
-                <div className='flex flex-col h-screen w-screen m-auto items-center justify-center text-white'>
+                <div className='flex flex-col h-screen w-screen m-auto items-center justify-center text-white md:mt-0 pb-10'>
 
-                    <div className='flex md:flex-row flex-col h-screen w-screen m-auto justify-center items-center max-w-7xl text-white'>
+                    <div className='flex md:flex-row flex-col h-screen w-screen m-auto justify-center items-center max-w-7xl mt-10 md:mt-0 text-white'>
                         <nav className='flex flex-col md:text-[7vw] text-[12vw] font-black  tracking-normal leading-tight'>
                             <div className='flex flex-col cursor-pointer'>
                                 <Link href={'/opportunities'}><p className='hover:text-black transition-all'>Opportunities</p></Link>
@@ -46,7 +46,7 @@ const Hamburger = ({state}) => {
                         </div>
                     </div>
                     <div className='flex flex-row text-lg justify-start w-screen max-w-7xl '>
-                        <div className='flex md:flex-row mx-5 md:mx-0 flex-col w-screen justify-between absolute bottom-14 max-w-5xl'>
+                        <div className='flex md:flex-row mx-5 md:mx-0 flex-col w-screen justify-between md:absolute  md:bottom-14 bottom-0 max-w-5xl'>
                             <h1 className=''>Locations:</h1>
                             
 
