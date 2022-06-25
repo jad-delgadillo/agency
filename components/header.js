@@ -55,7 +55,7 @@ export const Header = () => {
 
   return (
     <header>
-        <div className='relative z-30 '>
+        <div className='relative z-30 max-h-screen'>
             <div>
                 <div className='flex flex-row justify-between mt-10 md:mx-0 mx-5'>
                     <div className='text-2xl overflow-hidden mix-blend-overlay'>

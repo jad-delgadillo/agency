@@ -19,7 +19,7 @@ const Hamburger = ({state}) => {
     });
 
   return (
-    <div ref={el => (menu = el)} className='z-20 top-0 bottom-0 left-0 right-0 fixed h-[100%] w-[100%] hidden'>
+    <div ref={el => (menu = el)} className='z-20 top-0 bottom-0 left-0 right-0 fixed h-[100%] w-[100%] hidden max-h-screen'>
         <div className='bg-black z-10 top-0 bottom-0 left-0 right-0 fixed h-[100%] w-[100%] '>
             <div className='relative bg-red-600 h-[100%] overflow-hidden m-auto '>
                 
