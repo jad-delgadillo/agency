@@ -5,20 +5,15 @@ import Hamburger from './hamburger'
 
 export const Header = () => {
 
-  // State of our Menu
+  // State of o ur Menu
   const [state, setState] = useState({
     initial: false,
     clicked: null,
     menuName: "Menu", 
   });
 
-
   // State of our button
   const [disabled, setDisabled] = useState(false);
-
- 
-  
-
 
     const handleMenu = () => {
         disabledMenu();

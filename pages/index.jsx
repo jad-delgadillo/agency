@@ -1,10 +1,9 @@
-import type { NextPage } from 'next'
 import { Main } from '../components/main'
 import Head from 'next/head'
 import Image from 'next/image'
 import { Header } from '../components/header'
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div className='flex flex-col min-h-screen w-screen max-w-7xl m-auto'>
       <Header/>
